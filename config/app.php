@@ -201,7 +201,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         //laravel permission
-        Spatie\Permission\PermissionServiceProvider::class,
+        Spatie\Permission\PermissionServiceProvider::class
 
     ],
 
