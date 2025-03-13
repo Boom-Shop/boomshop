@@ -48,7 +48,7 @@ Route::group(
 
 
 
-        Route::post('livewire/message/{name}', '\Livewire\Controllers\HttpConnectionHandler');
+        //Route::post('livewire/message/{name}', '\Livewire\Controllers\HttpConnectionHandler');
 
 
         Route::get('/', [HomeController::class, 'index'])->name('home');
