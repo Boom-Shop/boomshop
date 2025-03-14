@@ -2,8 +2,8 @@
 
 @section('content')
     <div class="container py-4">
-        <table class="table boom-table">
-            <thead class="boom-table-header">
+        <table class="boom-table w-100">
+            <thead class="boom-table-header p-0">
                 <tr>
                     <th scope="col">ID</th>
                     <th scope="col">Nombre</th>
@@ -14,7 +14,7 @@
             </thead>
             <tbody>
                 @foreach ($products as $product)
-                    <tr>
+                    <tr class="border-bottom">
                         <th class="align-middle" scope="row">{{ $product->id }}</th>
                         <td class="align-middle">{{$product->name}}</td>
                         <td class="align-middle"><img src="{{ asset($product->image) }}" alt="" width="64px" class="rounded-3"></td>

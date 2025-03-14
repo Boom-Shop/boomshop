@@ -406,7 +406,7 @@
 
                                         <div class="col">
 
-                                            <a class="nav-link p-0 text-muted ms-2" rel="alternate"
+                                            <a class="nav-link p-0 text-secondary ms-2" rel="alternate"
                                                 hreflang="{{ $localeCode }}"
                                                 href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
                                                 {{ $properties['native'] }}
@@ -422,11 +422,11 @@
                         <h5 class="footer-title">Ayuda</h5>
                         <ul class="nav flex-column">
                             <li class="nav-item mb-2  "><a href="{{ route('help.boom') }}"
-                                    class="nav-link p-0 text-muted">BOOM</a></li>
+                                    class="nav-link p-0 text-secondary">BOOM</a></li>
                             <li class="nav-item mb-2  "><a href="{{ route('help.transactionsAndPayments') }}"
-                                    class="nav-link p-0 text-muted">Transacciones y Pagos</a></li>
+                                    class="nav-link p-0 text-secondary">Transacciones y Pagos</a></li>
                             <li class="nav-item mb-2  "><a href="{{ route('help.termsAndConditions') }}"
-                                    class="nav-link p-0 text-muted">Términos y Condiciones</a></li>
+                                    class="nav-link p-0 text-secondary">Términos y Condiciones</a></li>
                         </ul>
                     </div>
 
@@ -435,16 +435,16 @@
                             <h5 class="footer-title">Redes Sociales</h5>
                             <ul class="nav flex-column">
                                 <li class="nav-item mb-2 "><a href="https://www.instagram.com/boomshopve/"
-                                        target="_blank" class="nav-link p-0 text-muted"><i
+                                        target="_blank" class="nav-link p-0 text-secondary"><i
                                             class="bi bi-instagram me-2  text-primary"></i>
                                         BOOMSHOPVE</a></li>
                                 <li class="nav-item mb-2 "><a href="https://www.facebook.com/boomshopve"
-                                        target="_blank" class="nav-link p-0 text-muted"><i
+                                        target="_blank" class="nav-link p-0 text-secondary"><i
                                             class="bi bi-facebook text-primary me-2 "></i>
                                         BOOMSHOPVE</a>
                                 </li>
                                 <li class="nav-item mb-2 "><a href="" target="_blank"
-                                        class="nav-link p-0 text-muted"><i
+                                        class="nav-link p-0 text-secondary"><i
                                             class="bi bi-whatsapp text-primary me-2 "></i>
                                         SOPORTE</a>
                                 </li>
