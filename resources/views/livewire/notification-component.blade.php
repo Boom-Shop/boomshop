@@ -23,12 +23,12 @@
             @foreach ($notifications as $notification)
                 <div class="recharge-data {{ !$notification->read_at ? 'unread-notification' : 'notification' }} mb-2"
                     wire:click="read('{{ $notification->id }}')">
-                    <a href="{{ $notification->data['url'] }}">
+
                         <div class="p-3">
                             <p class="text-justify boom-color-lightgray">{{ $notification->data['message'] }}</p>
                             <p class="boom-color-lightgray text-end">{{ $notification->created_at->diffForHumans() }}</p>
                         </div>
-                    </a>
+
                 </div>
             @endforeach
         </div>

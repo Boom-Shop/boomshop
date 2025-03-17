@@ -19,6 +19,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\NoticeController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Livewire\Livewire;
 
 /*
 |--------------------------------------------------------------------------
@@ -48,7 +49,9 @@ Route::group(
 
 
 
-        //Route::post('livewire/message/{name}', '\Livewire\Controllers\HttpConnectionHandler');
+        Livewire::setUpdateRoute(function ($handle) {
+            return Route::post('/livewire/update', $handle);
+        });
 
 
         Route::get('/', [HomeController::class, 'index'])->name('home');

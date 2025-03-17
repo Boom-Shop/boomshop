@@ -25,7 +25,7 @@ class NotificationComponent extends Component
         return view('livewire.notification-component');
     }
 
-    public function read($notification_id)
+    function read($notification_id)
     {
        $notification = auth()->user()->notifications()->findOrFail($notification_id);
        $notification->markAsRead();
