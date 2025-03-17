@@ -13,7 +13,7 @@ use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable implements MustVerifyEmail
 {
-    use HasApiTokens, HasFactory, Notifiable, HasRoles;
+    use HasFactory, Notifiable, HasRoles;
 
     /**
      * The attributes that are mass assignable.
@@ -52,10 +52,10 @@ class User extends Authenticatable implements MustVerifyEmail
         return $this->hasMany(Order::class);
     }
 
-    public function notificactions()
+    /*public function notificactions()
     {
         return $this->hasMany(Notification::class);
-    }
+    }*/
 
     public function avatar()
     {

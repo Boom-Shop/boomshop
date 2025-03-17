@@ -475,7 +475,7 @@
                     let sound = new Audio('{{ asset('sounds/mixkit-tile-game-reveal-960.wav') }}');
                     Echo.private('App.Models.User.' + {{ auth()->user()->id }})
                         .notification((notification) => {
-                            Livewire.emit('notification');
+                            Livewire.dispatch('notification');
                             sound.play();
                         });
                 </script>

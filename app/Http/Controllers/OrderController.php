@@ -13,6 +13,7 @@ use App\Notifications\OrderRequest;
 use App\Notifications\OrderSuccess;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Notification;
 
 class OrderController extends Controller
 {
@@ -281,7 +282,7 @@ class OrderController extends Controller
 
         foreach ($users as $user) {
             if ($user->hasRole(['super-admin', 'admin', 'operator'])) {
-                $user->notify(new orderRequest($order));
+                Notification::send($user,new OrderRequest($order));
             }
         }
 
