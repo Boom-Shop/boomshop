@@ -83,7 +83,7 @@
                                                 <span class="">Monto Total&nbsp;:&nbsp;</span>
                                             </div>
                                             <div class="col">
-                                                <span class="text-decoration-line-through text-muted">
+                                                <span class="text-decoration-line-through ">
                                                     {{ $bundle->price * $paymentMethod->valuation->value }}
                                                     VES</span> <br>
                                                 <span class="fs-5" id="amount-container">
@@ -236,7 +236,7 @@
                 var amount = document.getElementById('amount-container');
                 amount.classList.remove("fs-5");
                 amount.classList.add("text-decoration-line-through");
-                amount.classList.add("text-muted");
+                amount.classList.add("");
 
                 var Amountinput = document.getElementsByName("amount")[0];
 

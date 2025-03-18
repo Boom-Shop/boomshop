@@ -4,7 +4,7 @@
 <div class="container p-4">
     <h2 class="text-center">Valuaciones</h2>
     <hr>
-    <table class="table boom-table">
+    <table class="w-100 boom-table">
         <thead class="boom-table-header">
             <tr>
                 <th scope="col">ID</th>

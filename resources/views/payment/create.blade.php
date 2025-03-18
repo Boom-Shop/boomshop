@@ -252,7 +252,7 @@
                                                 <div class="col text-start p-0">
                                                     @if ($bundle->discount != 0)
                                                         <span
-                                                            class="text-muted text-decoration-line-through">{{ number_format($bundle->price * $paymentMethod->valuation->value, 2) }}&nbsp;VES</span>
+                                                            class=" text-decoration-line-through">{{ number_format($bundle->price * $paymentMethod->valuation->value, 2) }}&nbsp;VES</span>
                                                     @endif
                                                     {{ number_format(($bundle->price - $bundle->price * ($bundle->discount / 100)) * $paymentMethod->valuation->value, 2) }}&nbsp;VES
                                                 </div>
@@ -473,7 +473,7 @@
                                             <div class="col text-start p-0">
                                                 @if ($bundle->discount != 0)
                                                     <span
-                                                        class="text-muted text-decoration-line-through">{{ number_format($bundle->price * $paymentMethod->valuation->value, 2) }}&nbsp;USD</span>
+                                                        class=" text-decoration-line-through">{{ number_format($bundle->price * $paymentMethod->valuation->value, 2) }}&nbsp;USD</span>
                                                 @endif
                                                 {{ number_format(($bundle->price - $bundle->price * ($bundle->discount / 100)) * $paymentMethod->valuation->value, 2) }}&nbsp;USD
                                             </div>
@@ -694,7 +694,7 @@
                                                 <div class="col text-start p-0">
                                                     @if ($bundle->discount != 0)
                                                         <span
-                                                            class="text-muted text-decoration-line-through">{{ number_format($bundle->price * $paymentMethod->valuation->value, 2) }}&nbsp;USDT</span>
+                                                            class=" text-decoration-line-through">{{ number_format($bundle->price * $paymentMethod->valuation->value, 2) }}&nbsp;USDT</span>
                                                     @endif
                                                     {{ number_format(($bundle->price - $bundle->price * ($bundle->discount / 100)) * $paymentMethod->valuation->value, 2) }}&nbsp;USDT
                                                 </div>
@@ -990,7 +990,7 @@
                                             <div class="col text-start p-0">
                                                 @if ($bundle->discount != 0)
                                                     <span
-                                                        class="text-muted text-decoration-line-through">{{ number_format($bundle->price * $paymentMethod->valuation->value, 2) }}&nbsp;USD</span>
+                                                        class=" text-decoration-line-through">{{ number_format($bundle->price * $paymentMethod->valuation->value, 2) }}&nbsp;USD</span>
                                                 @endif
                                                 {{ number_format(($bundle->price - $bundle->price * ($bundle->discount / 100)) * $paymentMethod->valuation->value, 2) }}&nbsp;USD
                                             </div>
@@ -1175,7 +1175,7 @@
                 var amount = document.getElementById('amount-container');
                 amount.classList.remove("fs-5");
                 amount.classList.add("text-decoration-line-through");
-                amount.classList.add("text-muted");
+                amount.classList.add("");
 
                 var Amountinput = document.getElementsByName("amount")[0];
 

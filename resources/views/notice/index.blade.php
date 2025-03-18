@@ -21,7 +21,7 @@
             @endif
         </div>
         <div class="table-responsive">
-            <table class="table boom-table">
+            <table class="w-100 boom-table">
                 <thead class="boom-table-header">
                     <tr>
                         <th scope="col">ID</th>

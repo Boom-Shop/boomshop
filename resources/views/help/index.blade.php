@@ -107,11 +107,11 @@
 
                         <div class="text-center d-inline-flex align-items-center justify-content-center mt-5 mb-0">
                             <a href="https://www.instagram.com/boomshopve/" target="_blank"
-                                class="nav-link p-0 text-muted fs-3 mx-2"><i
+                                class="nav-link p-0 fs-3 mx-2"><i
                                     class="bi bi-instagram   text-primary fs-3"></i></a>
                             <a href="https://www.facebook.com/boomshopve" target="_blank"
-                                class="nav-link p-0 text-muted fs-3 mx-2"><i class="bi bi-facebook text-primary  "></i></a>
-                            <a href="" target="_blank" class="nav-link p-0 text-muted fs-3 mx-2"><i
+                                class="nav-link p-0 fs-3 mx-2"><i class="bi bi-facebook text-primary  "></i></a>
+                            <a href="" target="_blank" class="nav-link p-0 fs-3 mx-2"><i
                                     class="bi bi-whatsapp text-primary  "></i></a>
                         </div>
                         <div class="stars d-flex mt-3 justify-content-center">

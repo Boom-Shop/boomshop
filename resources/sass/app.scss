@@ -169,8 +169,6 @@ body {
     font-family: Montserrat-Black;
 }
 
-
-
 .boom-color-yellow {
     color: $boom-yellow;
 }
@@ -422,9 +420,9 @@ span.mycarousel-control-next-icon {
 }
 
 .boom-table {
-    background-color: rgba($color: $boom-darkgray, $alpha: .9);
-    border: $boom-lightgray;
-    color: $boom-lightgray;
+    background-color: rgba($color: $boom-darkgray, $alpha: .9) !important;
+    border: $boom-lightgray !important;
+    color: $boom-lightgray !important;
 
 }
 
